@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "Hosting Coin",
+  "title": "RedSpaceCoin",
 
   "address": "127.0.0.1:80",
 
   // coin name
-  "coin": "Hosting Coin",
+  "coin": "RedSpaceCoin",
 
   // coin symbol
-  "symbol": "HSTC",
+  "symbol": "RSC",
 
   // coin type
   //  Options:
@@ -43,8 +43,8 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "Hosting",
-    "password": "H0sting",
+    "user": "redspace",
+    "password": "43053,
     "database": "explorerdb",
     "address": "localhost",
     "port": 27017
@@ -57,9 +57,9 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 15700,
-    "user": "rpcuser123",
-    "pass": "rpcpassword123"
+    "port": 54540,
+    "user": "rpcuser5",
+    "pass": "rpcpassword5"
   },
 
   // confirmations
@@ -73,9 +73,9 @@
     "api": true,
     "markets": false,
     "richlist": true,
-    "twitter": true,
-    "bitcointalk": true,
-    "website": true,
+    "twitter": false,
+    "bitcointalk": false,
+    "website": false,
     "github": true,
     "facebook": false,
     "googleplus": false,
@@ -84,7 +84,7 @@
     "network": false,
     "masternodes": true,
     "coininfo": false,
-    "coinmarketcap": true
+    "coinmarketcap": false
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid)
@@ -107,7 +107,7 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "HSTC",
+    "coin": "RSC",
     "exchange": "BTC",
     "enabled": ["0"],
     "cryptopia_id": "0",
@@ -133,7 +133,7 @@
   },
 
   // Masternodes page
-  // default port: Default port a masternode is running. 
+  // default port: Default port a masternode is running.
   "masternodes": {
     "default_port": 15600,
 
@@ -153,7 +153,7 @@
   // Coin info page
   "coininfo": {
     "basic_info_links": [
-      ["Github", "https://github.com/"]
+      ["Github", "https://github.com/rscmeow/redspacecoin"]
     ],
     "masternode_required": 1000,
     "block_time_sec": 60,
@@ -162,7 +162,7 @@
 
   // CoinMarketCap integration
   "coinmarketcap": {
-    "ticker": "HSTC"
+    "ticker": "RSC"
   },
 
   // twitter, facebook, googleplus
@@ -204,12 +204,12 @@
   "nethash_units": "G",
 
   // Address labels
-  // example : "HGZHWv32r9MpgnAoBwxtyuFTAd5CcbNPqF": {"label": "This is a burn address", "type":"danger", "url":"https://github.com/"}
+  // example : "HGZHWv32r9MpgnAoBwxtyuFTAd5CcbNPqF": {"label": "This is a burn address", "type":"danger", "url":"https://github.com/rscmeow/redspacecoin"}
   // label (required) = test to display
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-  //  "HGZHWv32r9MpgnAoBwxtyuFTAd5CcbNPqF": {"label": "Developers address", "type":"primary", "url":"https://github.com/"},
+  //  "HGZHWv32r9MpgnAoBwxtyuFTAd5CcbNPqF": {"label": "Developers address", "type":"primary", "url":"https://github.com/rscmeow/redspacecoin"},
   //  "HGZHWv32r9MpgnAoBwxtyuFTAd5CcbNPqF": {"label": "Cryptsy"}
   }
 }
